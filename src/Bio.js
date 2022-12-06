@@ -1,4 +1,5 @@
 import Button from "@mui/material/Button";
+import { Typewriter } from "react-simple-typewriter";
 
 export default function Bio() {
   return (
@@ -41,7 +42,22 @@ export default function Bio() {
           color: "darkGray",
         }}
       >
-        I build things for the web.
+        I am
+        <Typewriter
+          words={[
+            " a software engineer",
+            " a web developer",
+            " a designer",
+            " a travel enthusiast",
+          ]}
+          loop={5}
+          cursor
+          cursorStyle="_"
+          typeSpeed={70}
+          deleteSpeed={50}
+          delaySpeed={1000}
+        />
+        .
       </h1>
       <p
         style={{
