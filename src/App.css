@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+/* * {
+  overflow: hidden;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Open+Sans:wght@800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #1C1C1E;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navBar {
+  height: 8vh;
+  overflow: hidden;
+  position: fixed;
+  background-color: #1C1C1E;
+  top: 0;
+  width: 100%;
+  color: #dadada;
+  font-family: 'Fira Code', monospace;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+.navBar li:hover {
+  color: teal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navBar ul {
+  display: flex;
+  align-items: center;
+  padding: 0 3rem;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navBar li {
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+.aboutAnchor {
+  display: block;
+  position: relative;
+  top: 25vh;
+  visibility: hidden;
+}
+
+.projectsAnchor {
+  display: block;
+  position: relative;
+  top: 15vh;
+  visibility: hidden;
 }
