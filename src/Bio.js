@@ -50,14 +50,13 @@ export default function Bio() {
             " a designer",
             " a travel enthusiast",
           ]}
-          loop={5}
+          loop={50}
           cursor
           cursorStyle="_"
           typeSpeed={70}
           deleteSpeed={50}
           delaySpeed={1000}
         />
-        .
       </h1>
       <p
         style={{
