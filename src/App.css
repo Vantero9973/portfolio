@@ -16,6 +16,27 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (max-width: 768px) {
+  .links {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 10vw;
+    height: 100vh;
+    position: fixed;
+    color: teal;
+    height: 90%;
+    margin-top: 10%;
+  }
+}
+
 .navBar {
   height: 8vh;
   overflow: hidden;

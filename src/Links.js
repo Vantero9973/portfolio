@@ -4,20 +4,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 
 export default function Links() {
   return (
-    <nav
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "flex-end",
-        alignItems: "center",
-        width: "10vw",
-        height: "100vh",
-        position: "fixed",
-        color: "teal",
-        height: "90%",
-        marginTop: "10%",
-      }}
-    >
+    <nav className="links">
       <a
         href="https://github.com/Vantero9973"
         target="_blank"
