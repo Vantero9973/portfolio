@@ -3,52 +3,138 @@ import Button from "@mui/material/Button";
 
 export default function Navbar() {
   return (
-    <nav className="navBar">
-      <div style={{ marginLeft: "2.5vw" }}>
-        <a className="logoAnchor" href="#bio">
-          <img
-            className="logo"
-            src={logo}
-            alt="logo"
+    <>
+      <nav className="navBar">
+        <div style={{ marginLeft: "2.5vw" }}>
+          <a className="logoAnchor" href="#bio">
+            <img
+              className="logo"
+              src={logo}
+              alt="logo"
+              style={{
+                height: "50px",
+                width: "50px",
+                padding: "3px",
+              }}
+            />
+          </a>
+        </div>
+        <ul>
+          <li>
+            <a href="#about">
+              <span style={{ color: "teal" }}>01.</span> About
+            </a>
+          </li>
+          <li>
+            <a href="#projects">
+              <span style={{ color: "teal" }}>02.</span> Projects
+            </a>
+          </li>
+          <li>
+            <a href="#contact">
+              <span style={{ color: "teal" }}>03.</span> Contact
+            </a>
+          </li>
+          <Button
+            variant="outlined"
             style={{
-              height: "50px",
-              width: "50px",
-              padding: "3px",
+              color: "teal",
+              borderColor: "teal",
+              fontSize: "1vw",
+              fontWeight: "800",
+              fontFamily: "'Fira Code', monospace",
+              border: "2px solid",
             }}
-          />
-        </a>
-      </div>
+          >
+            Resume
+          </Button>
+        </ul>
+      </nav>
 
-      <ul>
-        <li>
-          <a href="#about">
-            <span style={{ color: "teal" }}>01.</span> About
-          </a>
-        </li>
-        <li>
-          <a href="#projects">
-            <span style={{ color: "teal" }}>02.</span> Projects
-          </a>
-        </li>
-        <li>
-          <a href="#contact">
-            <span style={{ color: "teal" }}>03.</span> Contact
-          </a>
-        </li>
-        <Button
-          variant="outlined"
+      <div className="navbarTwo">
+        <div
+          className="navbar bg-base-100"
           style={{
-            color: "teal",
-            borderColor: "teal",
-            fontSize: "1vw",
-            fontWeight: "800",
-            fontFamily: "'Fira Code', monospace",
-            border: "2px solid",
+            background: "#1c1c1e",
+            display: "flex",
+            justifyContent: "space-between",
           }}
         >
-          Resume
-        </Button>
-      </ul>
-    </nav>
+          <div style={{ marginLeft: "2.5vw" }}>
+            <a className="logoAnchor" href="#bio">
+              <img
+                className="logo"
+                src={logo}
+                alt="logo"
+                style={{
+                  height: "50px",
+                  width: "50px",
+                  padding: "3px",
+                }}
+              />
+            </a>
+          </div>
+          <div className="dropdown dropdown-end">
+            <label
+              tabIndex={0}
+              className="btn btn-ghost btn-circle"
+              style={{ color: "teal" }}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-10 w-10"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 6h16M4 12h16M4 18h7"
+                />
+              </svg>
+            </label>
+            <ul
+              tabIndex={0}
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              style={{ background: "#1c1c1e", border: "1px solid teal" }}
+            >
+              <li>
+                <a href="#about">
+                  <span style={{ color: "teal" }}>01.</span> About
+                </a>
+              </li>
+              <li>
+                <a href="#projects">
+                  <span style={{ color: "teal" }}>02.</span> Projects
+                </a>
+              </li>
+              <li>
+                <a href="#contact">
+                  <span style={{ color: "teal" }}>03.</span> Contact
+                </a>
+              </li>
+              <li>
+                <Button
+                  variant="outlined"
+                  style={{
+                    color: "#1c1c1e",
+                    borderColor: "#1c1c1e",
+                    fontSize: "16px",
+                    fontWeight: "bold",
+                    fontFamily: "'Fira Code', monospace",
+                    border: "2px solid",
+                    background: "teal",
+                  }}
+                >
+                  Resume
+                </Button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
