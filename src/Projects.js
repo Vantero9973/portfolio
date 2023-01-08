@@ -33,6 +33,7 @@ export default function Projects() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          flexWrap: "wrap",
           flexDirection: "row",
           marginTop: "50px",
           marginLeft: "50px",
@@ -136,6 +137,7 @@ export default function Projects() {
         style={{
           display: "flex",
           alignItems: "center",
+          flexWrap: "wrap",
           justifyContent: "center",
           flexDirection: "row",
           marginTop: "50px",
@@ -254,6 +256,7 @@ export default function Projects() {
         style={{
           display: "flex",
           alignItems: "center",
+          flexWrap: "wrap",
           justifyContent: "center",
           flexDirection: "row",
           marginTop: "50px",
