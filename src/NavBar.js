@@ -45,6 +45,7 @@ export default function Navbar() {
               fontFamily: "'Fira Code', monospace",
               border: "2px solid",
               background: "teal",
+              borderRadius: "10px",
             }}
           >
             Resume

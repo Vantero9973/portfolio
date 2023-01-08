@@ -100,7 +100,12 @@ export default function Projects() {
           </div>
           <Button
             variant="outlined"
-            style={{ color: "teal", borderColor: "teal", marginTop: "10px" }}
+            style={{
+              color: "teal",
+              borderColor: "teal",
+              marginTop: "10px",
+              borderRadius: "10px",
+            }}
           >
             Demo
           </Button>
@@ -111,6 +116,7 @@ export default function Projects() {
               borderColor: "teal",
               marginLeft: "20px",
               marginTop: "10px",
+              borderRadius: "10px",
             }}
           >
             Source Code
@@ -206,6 +212,7 @@ export default function Projects() {
                 borderColor: "teal",
                 marginRight: "20px",
                 marginTop: "10px",
+                borderRadius: "10px",
               }}
             >
               Demo
@@ -216,6 +223,7 @@ export default function Projects() {
                 color: "teal",
                 borderColor: "teal",
                 marginTop: "10px",
+                borderRadius: "10px",
               }}
             >
               Source Code
@@ -311,7 +319,12 @@ export default function Projects() {
           </div>
           <Button
             variant="outlined"
-            style={{ color: "teal", borderColor: "teal", marginTop: "10px" }}
+            style={{
+              color: "teal",
+              borderColor: "teal",
+              marginTop: "10px",
+              borderRadius: "10px",
+            }}
           >
             Demo
           </Button>
@@ -322,6 +335,7 @@ export default function Projects() {
               borderColor: "teal",
               marginLeft: "20px",
               marginTop: "10px",
+              borderRadius: "10px",
             }}
           >
             Source Code

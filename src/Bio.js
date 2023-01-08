@@ -85,6 +85,7 @@ export default function Bio() {
             fontFamily: "'Fira Code', monospace",
             fontWeight: "800",
             border: "2px solid",
+            borderRadius: "10px",
           }}
         >
           Contact Me!
