@@ -62,6 +62,7 @@ export default function AboutMe() {
             style={{
               height: "294px",
               width: "353px",
+              objectFit: "cover",
               border: "2px solid",
               backgroundColor: "#1C1C1E",
               borderRadius: "100px",
