@@ -54,7 +54,7 @@ export default function Projects() {
           <h1 style={{ fontSize: "32px", fontWeight: "800", color: "#dadada" }}>
             Parts Undefined
           </h1>
-          <p style={{ width: "400px", fontWeight: "600", color: "#a9a9a9" }}>
+          <p style={{ maxWidth: "400px", fontWeight: "600", color: "#a9a9a9" }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
@@ -156,7 +156,7 @@ export default function Projects() {
           </h1>
           <p
             style={{
-              width: "400px",
+              maxWidth: "400px",
               fontWeight: "600",
               textAlign: "right",
               color: "#a9a9a9",
@@ -279,7 +279,7 @@ export default function Projects() {
           <h1 style={{ fontSize: "32px", fontWeight: "800", color: "#dadada" }}>
             Personal Portfolio
           </h1>
-          <p style={{ width: "400px", fontWeight: "600", color: "#a9a9a9" }}>
+          <p style={{ maxWidth: "400px", fontWeight: "600", color: "#a9a9a9" }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
