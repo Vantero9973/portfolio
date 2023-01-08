@@ -1,4 +1,5 @@
 import pokemon from "./pokemonFlatiron.png";
+import parts_undefined from "./parts_undefined.png";
 import portfolio from "./PortfolioScreenshot.png";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
@@ -39,18 +40,19 @@ export default function Projects() {
         }}
       >
         <div>
-          <Card sx={{ display: "flex", boxShadow: "0 0 10px white" }}>
+          <Card sx={{ display: "flex" }}>
             <CardMedia
               component="img"
               sx={{ width: 600 }}
-              image={pokemon}
+              image={parts_undefined}
               alt="Pokemon Flatiron"
+              style={{ boxShadow: "0 0 0 10 teal" }}
             />
           </Card>
         </div>
         <div style={{ marginLeft: "50px" }}>
           <h1 style={{ fontSize: "32px", fontWeight: "800", color: "#dadada" }}>
-            Phase 5 Project
+            Parts Undefined
           </h1>
           <p style={{ width: "400px", fontWeight: "600", color: "#a9a9a9" }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -78,8 +80,8 @@ export default function Projects() {
               }}
             />
             <img
-              src="https://cdn.worldvectorlogo.com/logos/html-1.svg"
-              alt="HTML"
+              src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png"
+              alt="Rails"
               style={{
                 height: "30px",
                 width: "30px",
@@ -88,8 +90,8 @@ export default function Projects() {
               }}
             />
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
-              alt="CSS"
+              src="https://www.freeiconspng.com/thumbs/sql-server-icon-png/sql-server-icon-png-29.png"
+              alt="SQL"
               style={{
                 height: "30px",
                 width: "30px",
@@ -98,29 +100,36 @@ export default function Projects() {
               }}
             />
           </div>
-          <Button
-            variant="outlined"
-            style={{
-              color: "teal",
-              borderColor: "teal",
-              marginTop: "10px",
-              borderRadius: "10px",
-            }}
+          <a href="https://pu.vergeyle.net/" target="_blank">
+            <Button
+              variant="outlined"
+              style={{
+                color: "teal",
+                borderColor: "teal",
+                marginTop: "10px",
+                borderRadius: "10px",
+              }}
+            >
+              Demo
+            </Button>
+          </a>
+          <a
+            href="https://github.com/Vantero9973/parts-unknown"
+            target="_blank"
           >
-            Demo
-          </Button>
-          <Button
-            variant="outlined"
-            style={{
-              color: "teal",
-              borderColor: "teal",
-              marginLeft: "20px",
-              marginTop: "10px",
-              borderRadius: "10px",
-            }}
-          >
-            Source Code
-          </Button>
+            <Button
+              variant="outlined"
+              style={{
+                color: "teal",
+                borderColor: "teal",
+                marginLeft: "20px",
+                marginTop: "10px",
+                borderRadius: "10px",
+              }}
+            >
+              Source Code
+            </Button>
+          </a>
         </div>
       </div>
       <div
@@ -231,7 +240,7 @@ export default function Projects() {
           </div>
         </div>
         <div>
-          <Card sx={{ display: "flex", boxShadow: "0 0 10px white" }}>
+          <Card sx={{ display: "flex" }}>
             <CardMedia
               component="img"
               sx={{ width: 600 }}
@@ -256,7 +265,6 @@ export default function Projects() {
           <Card
             sx={{
               display: "flex",
-              boxShadow: "0 0 10px white",
             }}
           >
             <CardMedia
