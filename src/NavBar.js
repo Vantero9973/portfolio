@@ -38,12 +38,13 @@ export default function Navbar() {
           <Button
             variant="outlined"
             style={{
-              color: "teal",
-              borderColor: "teal",
+              color: "#1c1c1e",
+              borderColor: "#1c1c1e",
               fontSize: "16px",
-              fontWeight: "800",
+              fontWeight: "bold",
               fontFamily: "'Fira Code', monospace",
               border: "2px solid",
+              background: "teal",
             }}
           >
             Resume
