@@ -40,7 +40,7 @@ export default function Navbar() {
             style={{
               color: "teal",
               borderColor: "teal",
-              fontSize: "1vw",
+              fontSize: "16px",
               fontWeight: "800",
               fontFamily: "'Fira Code', monospace",
               border: "2px solid",

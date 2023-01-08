@@ -101,7 +101,6 @@ export default function AboutMe() {
               height: "60px",
               width: "60px",
               margin: "20px",
-              boxShadow: "0 0 10px",
               borderRadius: "15px",
             }}
           />
@@ -117,7 +116,6 @@ export default function AboutMe() {
               height: "60px",
               width: "60px",
               margin: "20px",
-              boxShadow: "0 0 10px",
               borderRadius: "15px",
             }}
           />
@@ -133,7 +131,6 @@ export default function AboutMe() {
               height: "60px",
               width: "60px",
               margin: "20px",
-              boxShadow: "0 0 10px",
               borderRadius: "15px",
             }}
           />
@@ -149,7 +146,6 @@ export default function AboutMe() {
               height: "60px",
               width: "60px",
               margin: "20px",
-              boxShadow: "0 0 10px",
               borderRadius: "15px",
             }}
           />
@@ -165,7 +161,6 @@ export default function AboutMe() {
               height: "60px",
               width: "60px",
               margin: "20px",
-              boxShadow: "0 0 10px",
               borderRadius: "15px",
             }}
           />
@@ -181,7 +176,6 @@ export default function AboutMe() {
               height: "60px",
               width: "60px",
               margin: "20px",
-              boxShadow: "0 0 10px",
               borderRadius: "15px",
             }}
           />
@@ -197,7 +191,6 @@ export default function AboutMe() {
               height: "60px",
               width: "60px",
               margin: "20px",
-              boxShadow: "0 0 10px",
               borderRadius: "15px",
             }}
           />
@@ -213,7 +206,6 @@ export default function AboutMe() {
               height: "60px",
               width: "60px",
               margin: "20px",
-              boxShadow: "0 0 10px",
               borderRadius: "15px",
             }}
           />
@@ -229,7 +221,6 @@ export default function AboutMe() {
               height: "60px",
               width: "60px",
               margin: "20px",
-              boxShadow: "0 0 10px",
               borderRadius: "15px",
             }}
           />
