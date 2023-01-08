@@ -3,17 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 export default function Bio() {
   return (
-    <div
-      id="bio"
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        paddingTop: "250px",
-        height: "75vh",
-        marginLeft: "10%",
-      }}
-    >
+    <div className="bio" id="bio">
       <p
         style={{
           fontSize: "clamp(10px, 4vw, 15px)",

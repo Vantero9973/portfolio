@@ -23,6 +23,27 @@ html {
 }
 
 @media (min-width: 768px) {
+  .bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 250px;
+    height: 75vh;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 250px;
+    height: 75vh;
+  }
+}
+
+@media (min-width: 768px) {
   .links {
     display: flex;
     flex-direction: column;
