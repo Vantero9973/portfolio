@@ -126,6 +126,21 @@ export default function AboutMe() {
         </div>
         <div style={{ color: "#dadada" }}>
           <img
+            src="https://res.cloudinary.com/arcjet-media/image/upload/v1608734952/z8hzeszc9eb3sp3vp3qc.jpg"
+            alt="Tailwind"
+            style={{
+              height: "60px",
+              width: "60px",
+              margin: "20px",
+              borderRadius: "15px",
+            }}
+          />
+          <label style={{ display: "flex", justifyContent: "center" }}>
+            Tailwind
+          </label>
+        </div>
+        <div style={{ color: "#dadada" }}>
+          <img
             src="https://cdn.worldvectorlogo.com/logos/html-1.svg"
             alt="HTML"
             style={{
@@ -212,21 +227,6 @@ export default function AboutMe() {
           />
           <label style={{ display: "flex", justifyContent: "center" }}>
             Github
-          </label>
-        </div>
-        <div style={{ color: "#dadada" }}>
-          <img
-            src="https://mui.com/static/logo.png"
-            alt="Material UI"
-            style={{
-              height: "60px",
-              width: "60px",
-              margin: "20px",
-              borderRadius: "15px",
-            }}
-          />
-          <label style={{ display: "flex", justifyContent: "center" }}>
-            Material UI
           </label>
         </div>
       </div>

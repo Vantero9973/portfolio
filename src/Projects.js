@@ -40,14 +40,13 @@ export default function Projects() {
           marginBottom: "50px",
         }}
       >
-        <div>
+        <div style={{ boxShadow: "0 0 8px teal" }}>
           <Card sx={{ display: "flex" }}>
             <CardMedia
               component="img"
               sx={{ width: 600 }}
-              image={parts_undefined}
-              alt="Pokemon Flatiron"
-              style={{ boxShadow: "0 0 0 10 teal" }}
+              image="https://i.imgur.com/M33hXMW.jpg"
+              alt="Parts Undefined"
             />
           </Card>
         </div>
@@ -93,6 +92,16 @@ export default function Projects() {
             <img
               src="https://www.freeiconspng.com/thumbs/sql-server-icon-png/sql-server-icon-png-29.png"
               alt="SQL"
+              style={{
+                height: "30px",
+                width: "30px",
+                margin: "10px",
+                borderRadius: "5px",
+              }}
+            />
+            <img
+              src="https://cdn.iconscout.com/icon/free/png-256/bootstrap-7-1175254.png"
+              alt="Bootstrap"
               style={{
                 height: "30px",
                 width: "30px",
