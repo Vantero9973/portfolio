@@ -13,7 +13,7 @@ export default function Navbar() {
               alt="logo"
               style={{
                 height: "50px",
-                width: "50px",
+                width: "55px",
                 padding: "3px",
               }}
             />
