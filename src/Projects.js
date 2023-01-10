@@ -1,9 +1,11 @@
 import pokemon from "./pokemonFlatiron.png";
-import parts_undefined from "./parts_undefined.png";
 import portfolio from "./PortfolioScreenshot.png";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 export default function Projects() {
   return (
@@ -29,6 +31,9 @@ export default function Projects() {
         </h2>
       </div>
       <div
+        // data-aos-easing="linear"
+        // data-aos-duration="500"
+        // data-aos="zoom-in-left"
         style={{
           display: "flex",
           alignItems: "center",
@@ -143,6 +148,9 @@ export default function Projects() {
         </div>
       </div>
       <div
+        // data-aos-easing="linear"
+        // data-aos-duration="500"
+        // data-aos="zoom-in-right"
         style={{
           display: "flex",
           alignItems: "center",
@@ -250,7 +258,7 @@ export default function Projects() {
             </Button>
           </div>
         </div>
-        <div>
+        <div style={{ boxShadow: "0 0 8px teal" }}>
           <Card sx={{ display: "flex" }}>
             <CardMedia
               component="img"
@@ -262,6 +270,9 @@ export default function Projects() {
         </div>
       </div>
       <div
+        // data-aos-easing="linear"
+        // data-aos-duration="500"
+        // data-aos="zoom-in-left"
         style={{
           display: "flex",
           alignItems: "center",
@@ -273,7 +284,7 @@ export default function Projects() {
           marginBottom: "50px",
         }}
       >
-        <div>
+        <div style={{ boxShadow: "0 0 8px teal" }}>
           <Card
             sx={{
               display: "flex",
