@@ -26,7 +26,7 @@ export default function Bio() {
       </h1>
       <h1
         style={{
-          fontSize: "clamp(35px, 4vw, 80px)",
+          fontSize: "clamp(25px, 4vw, 80px)",
           fontFamily: "'Roboto', sans-serif",
           fontWeight: "800",
           color: "darkGray",
@@ -34,6 +34,7 @@ export default function Bio() {
       >
         I am
         <Typewriter
+          style={{ fontSize: "clamp(25px, 4vw, 80px)" }}
           words={[
             " a software engineer",
             " a web developer",
