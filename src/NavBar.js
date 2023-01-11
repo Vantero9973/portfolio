@@ -1,5 +1,6 @@
 import logo from "./logo.png";
 import Button from "@mui/material/Button";
+import resume from "./Resume.pdf";
 
 export default function Navbar() {
   return (
@@ -35,21 +36,23 @@ export default function Navbar() {
               <span style={{ color: "teal" }}>03.</span> Contact
             </a>
           </li>
-          <Button
-            variant="outlined"
-            style={{
-              color: "#1c1c1e",
-              borderColor: "#1c1c1e",
-              fontSize: "16px",
-              fontWeight: "bold",
-              fontFamily: "'Fira Code', monospace",
-              border: "2px solid",
-              background: "teal",
-              borderRadius: "10px",
-            }}
-          >
-            Resume
-          </Button>
+          <a href={resume} target="_blank">
+            <Button
+              variant="outlined"
+              style={{
+                color: "#1c1c1e",
+                borderColor: "#1c1c1e",
+                fontSize: "16px",
+                fontWeight: "bold",
+                fontFamily: "'Fira Code', monospace",
+                border: "2px solid",
+                background: "teal",
+                borderRadius: "10px",
+              }}
+            >
+              Resume
+            </Button>
+          </a>
         </ul>
       </nav>
 
@@ -118,20 +121,23 @@ export default function Navbar() {
                 </a>
               </li>
               <li>
-                <Button
-                  variant="outlined"
-                  style={{
-                    color: "#1c1c1e",
-                    borderColor: "#1c1c1e",
-                    fontSize: "16px",
-                    fontWeight: "bold",
-                    fontFamily: "'Fira Code', monospace",
-                    border: "2px solid",
-                    background: "teal",
-                  }}
-                >
-                  Resume
-                </Button>
+                <a href={resume} target="_blank">
+                  <Button
+                    variant="outlined"
+                    style={{
+                      color: "#1c1c1e",
+                      borderColor: "#1c1c1e",
+                      fontSize: "16px",
+                      fontWeight: "bold",
+                      fontFamily: "'Fira Code', monospace",
+                      border: "2px solid",
+                      background: "teal",
+                      borderRadius: "10px",
+                    }}
+                  >
+                    Resume
+                  </Button>
+                </a>
               </li>
             </ul>
           </div>
