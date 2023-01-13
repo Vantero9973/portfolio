@@ -49,7 +49,7 @@ export default function Projects() {
           <Card sx={{ display: "flex" }}>
             <CardMedia
               component="img"
-              sx={{ width: 600 }}
+              sx={{ width: "35vw" }}
               image="https://i.imgur.com/M33hXMW.jpg"
               alt="Parts Undefined"
             />
@@ -262,7 +262,7 @@ export default function Projects() {
           <Card sx={{ display: "flex" }}>
             <CardMedia
               component="img"
-              sx={{ width: 600 }}
+              sx={{ width: "35vw" }}
               image={pokemon}
               alt="Pokemon Flatiron"
             />
@@ -292,7 +292,7 @@ export default function Projects() {
           >
             <CardMedia
               component="img"
-              sx={{ width: 600 }}
+              sx={{ width: "35vw" }}
               image={portfolio}
               alt="Portfolio"
             />
