@@ -103,6 +103,20 @@ html {
   }
 }
 
+@media (max-width: 768px) {
+  .contactText {
+    color: darkgray;
+    width: 75vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .contactText {
+    color: darkgray;
+    width: 40vw;
+  }
+}
+
 /* .navBar {
   height: 8vh;
   overflow: hidden;

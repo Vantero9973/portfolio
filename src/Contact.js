@@ -2,10 +2,22 @@ import "tailwindcss/tailwind.css";
 
 export default function Contact() {
   return (
-    <div id="contact" style={{ marginTop: "200px" }}>
+    <div
+      id="contact"
+      style={{
+        marginTop: "200px",
+      }}
+    >
       <section className="text-gray-700 body-font relative">
         <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-center w-full mb-12">
+          <div
+            className="flex flex-col text-center w-full mb-12"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
             <h2
               style={{ fontSize: "32px", color: "#dadada", fontWeight: "800" }}
             >
@@ -20,10 +32,7 @@ export default function Contact() {
               </span>
               Contact Me
             </h2>
-            <p
-              style={{ color: "darkGray", width: "40vw" }}
-              className="lg:w-2/3 mx-auto leading-relaxed text-base"
-            >
+            <p className="contactText">
               I'm interested in freelance opportunites - especially ambitious or
               large projects. However, if you have other requests or questions,
               don't hesitate to use the form!
