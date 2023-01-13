@@ -128,7 +128,7 @@ export default function Navbar() {
             >
               <li onClick={() => setShowSidebar(false)}>
                 <a href="#about" style={{ color: "#dadada", fontSize: "20px" }}>
-                  <span style={{ color: "teal", fontSize: "16px" }}>01.</span>{" "}
+                  <span style={{ color: "teal", fontSize: "16px" }}>01.</span>
                   About
                 </a>
               </li>
@@ -137,7 +137,7 @@ export default function Navbar() {
                   href="#projects"
                   style={{ color: "#dadada", fontSize: "20px" }}
                 >
-                  <span style={{ color: "teal", fontSize: "16px" }}>02.</span>{" "}
+                  <span style={{ color: "teal", fontSize: "16px" }}>02.</span>
                   Projects
                 </a>
               </li>
@@ -146,7 +146,7 @@ export default function Navbar() {
                   href="#contact"
                   style={{ color: "#dadada", fontSize: "20px" }}
                 >
-                  <span style={{ color: "teal", fontSize: "16px" }}>03.</span>{" "}
+                  <span style={{ color: "teal", fontSize: "16px" }}>03.</span>
                   Contact
                 </a>
               </li>
@@ -157,7 +157,7 @@ export default function Navbar() {
                     style={{
                       color: "#1c1c1e",
                       borderColor: "#2c2c2e",
-                      fontSize: "20px",
+                      fontSize: "18px",
                       fontWeight: "bold",
                       fontFamily: "'Fira Code', monospace",
                       border: "2px solid",
