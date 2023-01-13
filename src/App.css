@@ -92,10 +92,14 @@ html {
 
 @media (max-width: 768px) {
   .navbarTwo {
+    font-family: 'Fira Code', monospace;
     position: fixed;
     width: 100vw;
     z-index: 2;
-    border-bottom: 1px solid #2c2c2e
+    border-bottom: 1px solid #2c2c2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
