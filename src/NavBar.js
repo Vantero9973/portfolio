@@ -127,8 +127,29 @@ export default function Navbar() {
               }}
             >
               <li onClick={() => setShowSidebar(false)}>
+                <a
+                  className="logoAnchor"
+                  href="#bio"
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <img
+                    className="logo"
+                    src={logo}
+                    alt="logo"
+                    style={{
+                      height: "40px",
+                      width: "40px",
+                    }}
+                  />
+                </a>
+              </li>
+              <li onClick={() => setShowSidebar(false)}>
                 <a href="#about" style={{ color: "#dadada", fontSize: "20px" }}>
-                  <span style={{ color: "teal", fontSize: "16px" }}>01.</span>
+                  <span style={{ color: "teal", fontSize: "16px" }}>01. </span>
                   About
                 </a>
               </li>
@@ -137,7 +158,7 @@ export default function Navbar() {
                   href="#projects"
                   style={{ color: "#dadada", fontSize: "20px" }}
                 >
-                  <span style={{ color: "teal", fontSize: "16px" }}>02.</span>
+                  <span style={{ color: "teal", fontSize: "16px" }}>02. </span>
                   Projects
                 </a>
               </li>
@@ -146,7 +167,7 @@ export default function Navbar() {
                   href="#contact"
                   style={{ color: "#dadada", fontSize: "20px" }}
                 >
-                  <span style={{ color: "teal", fontSize: "16px" }}>03.</span>
+                  <span style={{ color: "teal", fontSize: "16px" }}>03. </span>
                   Contact
                 </a>
               </li>
