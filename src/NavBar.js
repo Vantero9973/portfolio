@@ -128,27 +128,6 @@ export default function Navbar() {
             >
               <li onClick={() => setShowSidebar(false)}>
                 <a
-                  className="logoAnchor"
-                  href="#bio"
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems: "center",
-                  }}
-                >
-                  <img
-                    className="logo"
-                    src={logo}
-                    alt="logo"
-                    style={{
-                      height: "40px",
-                      width: "40px",
-                    }}
-                  />
-                </a>
-              </li>
-              <li onClick={() => setShowSidebar(false)}>
-                <a
                   href="#about"
                   style={{
                     color: "#dadada",
