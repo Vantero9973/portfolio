@@ -92,6 +92,7 @@ html {
 
 @media (max-width: 768px) {
   .navbarTwo {
+    background: #1c1c1e;
     font-family: 'Fira Code', monospace;
     position: fixed;
     width: 100vw;

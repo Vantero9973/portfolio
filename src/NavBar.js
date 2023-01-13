@@ -99,7 +99,7 @@ export default function Navbar() {
               viewBox="0 0 100 80"
               width="40"
               height="40"
-              style={{ marginRight: "3vw" }}
+              style={{ marginRight: "3vw", background: "#1c1c1e" }}
             >
               <rect width="100" height="10"></rect>
               <rect y="30" width="100" height="10"></rect>
