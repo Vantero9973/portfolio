@@ -10,7 +10,7 @@ export default function AboutMe() {
           flexWrap: "wrap",
           alignItems: "center",
           justifyContent: "center",
-          gap: "5rem",
+          gap: "2rem",
           marginTop: "300px",
         }}
       >
