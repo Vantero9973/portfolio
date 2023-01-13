@@ -144,7 +144,7 @@ export default function Navbar() {
               <li onClick={() => setShowSidebar(false)}>
                 <a
                   href="#contact"
-                  style={{ color: "#dadada", fontSize: "20  px" }}
+                  style={{ color: "#dadada", fontSize: "20px" }}
                 >
                   <span style={{ color: "teal", fontSize: "16px" }}>03.</span>{" "}
                   Contact
@@ -156,8 +156,8 @@ export default function Navbar() {
                     variant="outlined"
                     style={{
                       color: "#1c1c1e",
-                      borderColor: "#1c1c1e",
-                      fontSize: "16px",
+                      borderColor: "#2c2c2e",
+                      fontSize: "20px",
                       fontWeight: "bold",
                       fontFamily: "'Fira Code', monospace",
                       border: "2px solid",
