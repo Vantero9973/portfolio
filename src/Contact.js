@@ -90,7 +90,12 @@ export default function Contact() {
                 </button>
               </div>
               <div className="p-2 w-full pt-8 mt-8 border-t border-teal-200 text-center">
-                <a className="text-teal-500">alexvan73@yahoo.com</a>
+                <a
+                  className="text-teal-500"
+                  href="mailto:vantero.dev@gmail.com"
+                >
+                  vantero.dev@gmail.com
+                </a>
                 <span className="inline-flex">
                   <a className="text-gray-500"></a>
                   <a className="ml-4 text-gray-500"></a>
