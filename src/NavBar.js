@@ -85,7 +85,7 @@ export default function Navbar() {
         <>
           {showSidebar ? (
             <button
-              className="flex text-4xl text-white items-center cursor-pointer fixed right-10 top-6 z-50"
+              className="flex text-4xl text-white items-center cursor-pointer fixed right-5 z-50"
               onClick={() => setShowSidebar(!showSidebar)}
               style={{ color: "teal" }}
             >
