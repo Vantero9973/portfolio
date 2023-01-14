@@ -87,7 +87,7 @@ export default function Navbar() {
             <button
               className="flex text-4xl text-white items-center cursor-pointer fixed right-5 z-50"
               onClick={() => setShowSidebar(!showSidebar)}
-              style={{ color: "teal" }}
+              style={{ color: "teal", zIndex: "2000" }}
             >
               x
             </button>
@@ -108,15 +108,29 @@ export default function Navbar() {
           )}
 
           <div
+            className={`top-0 right-0 text-white fixed h-full ${
+              showSidebar ? "translate-x-0 " : "translate-x-full"
+            }`}
+            style={{
+              backdropFilter: "blur(5px)",
+              width: "100vw",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              zIndex: "100",
+            }}
+          ></div>
+          <div
             className={`top-0 right-0 text-white fixed h-full z-40  ease-in-out duration-300 ${
               showSidebar ? "translate-x-0 " : "translate-x-full"
             }`}
             style={{
               background: "#2c2c2e",
-              width: "60vw",
+              width: "75vw",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
+              zIndex: "1000",
             }}
           >
             <ul
