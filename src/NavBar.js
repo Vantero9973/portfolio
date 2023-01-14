@@ -108,17 +108,10 @@ export default function Navbar() {
           )}
 
           <div
+            id="blurdiv"
             className={`top-0 right-0 text-white fixed h-full ${
               showSidebar ? "translate-x-0 " : "translate-x-full"
             }`}
-            style={{
-              backdropFilter: "blur(5px) contrast(100%)",
-              width: "100vw",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              zIndex: "100",
-            }}
           ></div>
           <div
             className={`top-0 right-0 text-white fixed h-full z-40  ease-in-out duration-300 ${
