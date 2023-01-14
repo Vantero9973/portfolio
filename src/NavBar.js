@@ -112,7 +112,7 @@ export default function Navbar() {
               showSidebar ? "translate-x-0 " : "translate-x-full"
             }`}
             style={{
-              backdropFilter: "blur(5px)",
+              backdropFilter: "blur(5px) contrast(100%)",
               width: "100vw",
               display: "flex",
               justifyContent: "center",
