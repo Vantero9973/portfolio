@@ -563,7 +563,7 @@ export default function Projects() {
               marginBottom: "2vh",
             }}
           >
-            Portfolio
+            Pokémon Flatiron
           </h1>
           <div style={{ boxShadow: "0 0 8px teal" }}>
             <Card sx={{ display: "flex" }}>
@@ -571,7 +571,7 @@ export default function Projects() {
                 component="img"
                 sx={{ width: "80vw" }}
                 image={pokemon}
-                alt="Portfolio"
+                alt="Pokemon Flatiron"
               />
             </Card>
           </div>
@@ -665,6 +665,7 @@ export default function Projects() {
             display: "flex",
             justifyContent: "flex-start",
             flexDirection: "column",
+            marginTop: "50px",
           }}
         >
           <h1
