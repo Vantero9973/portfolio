@@ -72,7 +72,7 @@ export default function Bio() {
             marginTop: "20px",
             color: "teal",
             borderColor: "teal",
-            fontSize: "clamp(10px, 3vw, 20px)",
+            fontSize: "clamp(16px, 3vw, 20px)",
             fontFamily: "'Fira Code', monospace",
             fontWeight: "800",
             border: "2px solid",

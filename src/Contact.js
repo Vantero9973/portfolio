@@ -76,7 +76,6 @@ export default function Contact() {
                 <button
                   className="flex mx-auto text-black bg-teal-500 border-0 py-2 px-8 focus:outline-none hover:bg-teal-600 rounded text-lg"
                   style={{
-                    fontWeight: "bold",
                     background: "teal",
                   }}
                 >
