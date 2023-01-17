@@ -10,7 +10,11 @@ AOS.init();
 export default function Projects() {
   return (
     <>
-      <a className="projectsAnchor" id="projects"></a>
+      <a
+        className="projectsAnchor"
+        id="projects"
+        style={{ marginBottom: "10px" }}
+      ></a>
       <div className="defaultProjects">
         <div
           style={{
