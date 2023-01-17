@@ -85,14 +85,24 @@ export default function Contact() {
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button className="flex mx-auto text-black bg-teal-500 border-0 py-2 px-8 focus:outline-none hover:bg-teal-600 rounded text-lg">
+                <button
+                  className="flex mx-auto text-black bg-teal-500 border-0 py-2 px-8 focus:outline-none hover:bg-teal-600 rounded text-lg"
+                  style={{
+                    fontWeight: "bold",
+                    background: "teal",
+                  }}
+                >
                   Send Message!
                 </button>
               </div>
-              <div className="p-2 w-full pt-8 mt-8 border-t border-teal-200 text-center">
+              <div
+                className="p-2 w-full pt-8 mt-8 border-t border-teal-200 text-center"
+                style={{ borderColor: "teal" }}
+              >
                 <a
                   className="text-teal-500"
                   href="mailto:vantero.dev@gmail.com"
+                  style={{ color: "teal", fontSize: "20px" }}
                 >
                   vantero.dev@gmail.com
                 </a>
