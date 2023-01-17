@@ -11,7 +11,6 @@ export default function Projects() {
   return (
     <>
       <div className="defaultProjects">
-        <a className="projectsAnchor" id="projects"></a>
         <div
           style={{
             marginTop: "200px",
@@ -386,6 +385,7 @@ export default function Projects() {
 
       {/* Mobile */}
 
+      <a className="projectsAnchor" id="projects"></a>
       <div className="mobileProjects">
         <div
           style={{
