@@ -10,6 +10,7 @@ AOS.init();
 export default function Projects() {
   return (
     <>
+      <a className="projectsAnchor" id="projects"></a>
       <div className="defaultProjects">
         <div
           style={{

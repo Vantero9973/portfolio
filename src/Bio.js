@@ -38,14 +38,14 @@ export default function Bio() {
           words={[
             " software engineer.",
             " web developer.",
-            " designer.",
+            " web designer.",
             " traveler.",
           ]}
           loop={50}
           cursor
           cursorStyle="_"
-          typeSpeed={70}
-          deleteSpeed={50}
+          typeSpeed={100}
+          deleteSpeed={70}
           delaySpeed={1000}
         />
       </h1>
