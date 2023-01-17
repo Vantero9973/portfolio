@@ -32,14 +32,14 @@ export default function Bio() {
           color: "darkGray",
         }}
       >
-        I am
+        I am a
         <Typewriter
           style={{ fontSize: "clamp(25px, 4vw, 80px)" }}
           words={[
-            " a software engineer",
-            " a web developer",
-            " a designer",
-            " a traveler",
+            " software engineer.",
+            " web developer.",
+            " designer.",
+            " traveler.",
           ]}
           loop={50}
           cursor
