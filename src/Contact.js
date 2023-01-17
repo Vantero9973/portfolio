@@ -5,7 +5,7 @@ export default function Contact() {
     <div
       id="contact"
       style={{
-        marginTop: "200px",
+        marginTop: "80px",
       }}
     >
       <section className="text-gray-700 body-font relative">
