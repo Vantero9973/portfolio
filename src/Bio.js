@@ -39,7 +39,7 @@ export default function Bio() {
             " a software engineer",
             " a web developer",
             " a designer",
-            " a travel enthusiast",
+            " a traveler",
           ]}
           loop={50}
           cursor
