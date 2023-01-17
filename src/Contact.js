@@ -1,4 +1,5 @@
 import "tailwindcss/tailwind.css";
+import Button from "@mui/material/Button";
 
 export default function Contact() {
   return (
@@ -72,15 +73,23 @@ export default function Contact() {
                   ></textarea>
                 </div>
               </div>
-              <div className="p-2 w-full">
-                <button
-                  className="flex mx-auto text-black bg-teal-500 border-0 py-2 px-8 focus:outline-none hover:bg-teal-600 rounded text-lg"
+              <div
+                className="p-2 w-full"
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <Button
+                  variant="outlined"
                   style={{
+                    color: "#1c1c1e",
+                    borderColor: "#2c2c2e",
+                    fontWeight: "bold",
+                    border: "2px solid",
                     background: "teal",
+                    borderRadius: "10px",
                   }}
                 >
                   Send Message!
-                </button>
+                </Button>
               </div>
               <div
                 className="p-2 w-full pt-8 mt-8 border-t border-teal-200 text-center"
