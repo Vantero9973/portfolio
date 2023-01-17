@@ -14,7 +14,8 @@ export default function Projects() {
       <div
         style={{
           marginTop: "200px",
-          marginLeft: "100px",
+          marginLeft: "10vw",
+          maxWidth: "500px",
         }}
       >
         <h2 style={{ fontSize: "32px", color: "#dadada", fontWeight: "800" }}>

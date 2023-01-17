@@ -18,7 +18,6 @@ export default function AboutMe() {
           style={{
             display: "flex",
             flexDirection: "column",
-            maxWidth: "50vw",
             color: "#a9a9a9",
             fontSize: "20px",
             maxWidth: "500px",
