@@ -42,10 +42,8 @@ export default function Contact() {
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
                 <div className="relative">
-                  <label for="name" className="leading-7 text-sm text-teal-600">
-                    Name
-                  </label>
                   <input
+                    placeholder="Name"
                     type="text"
                     id="name"
                     name="name"
@@ -55,13 +53,8 @@ export default function Contact() {
               </div>
               <div className="p-2 w-1/2">
                 <div className="relative">
-                  <label
-                    for="email"
-                    className="leading-7 text-sm text-teal-600"
-                  >
-                    Email
-                  </label>
                   <input
+                    placeholder="Email"
                     type="email"
                     id="email"
                     name="email"
@@ -71,13 +64,8 @@ export default function Contact() {
               </div>
               <div className="p-2 w-full">
                 <div className="relative">
-                  <label
-                    for="message"
-                    className="leading-7 text-sm text-teal-600"
-                  >
-                    Message
-                  </label>
                   <textarea
+                    placeholder="Message"
                     id="message"
                     name="message"
                     className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
