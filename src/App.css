@@ -118,6 +118,32 @@ html {
   }
 }
 
+@media (min-width: 768px) {
+  .defaultProjects {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .defaultProjects {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobileProjects {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobileProjects {
+    display: none;
+  }
+}
+
 /* .navBar {
   height: 8vh;
   overflow: hidden;
