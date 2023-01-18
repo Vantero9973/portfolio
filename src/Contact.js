@@ -1,7 +1,35 @@
 import "tailwindcss/tailwind.css";
 import Button from "@mui/material/Button";
+import { useState } from "react";
+import { send } from "emailjs-com";
 
 export default function Contact() {
+  const [toSend, setToSend] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    send("service_nfweg24", "template_quzz22p", toSend, "GSu7c8HKQQ1CYrr6c")
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+      })
+      .catch((err) => {
+        console.log("FAILED...", err);
+      });
+    setToSend({
+      name: "",
+      email: "",
+      message: "",
+    });
+  };
+
+  const handleChange = (e) => {
+    setToSend({ ...toSend, [e.target.name]: e.target.value });
+  };
+
   return (
     <div
       id="contact"
@@ -41,72 +69,70 @@ export default function Contact() {
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
             <div className="flex flex-wrap -m-2">
-              <div className="p-2 w-1/2">
-                <div className="relative">
-                  <input
-                    placeholder="Name"
-                    type="text"
-                    id="name"
-                    name="name"
-                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                  />
-                </div>
-              </div>
-              <div className="p-2 w-1/2">
-                <div className="relative">
-                  <input
-                    placeholder="Email"
-                    type="email"
-                    id="email"
-                    name="email"
-                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                  />
-                </div>
-              </div>
-              <div className="p-2 w-full">
-                <div className="relative">
-                  <textarea
-                    placeholder="Message"
-                    id="message"
-                    name="message"
-                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                  ></textarea>
-                </div>
-              </div>
-              <div
-                className="p-2 w-full"
-                style={{ display: "flex", justifyContent: "center" }}
-              >
-                <Button
-                  variant="outlined"
-                  style={{
-                    color: "#1c1c1e",
-                    borderColor: "#2c2c2e",
-                    fontWeight: "bold",
-                    border: "2px solid",
-                    background: "teal",
-                    borderRadius: "10px",
-                  }}
+              <form onSubmit={onSubmit}>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                  value={toSend.name}
+                  onChange={handleChange}
+                  className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  style={{ margin: "10px" }}
+                />
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Email"
+                  value={toSend.email}
+                  onChange={handleChange}
+                  className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  style={{ margin: "10px" }}
+                />
+                <textarea
+                  type="text"
+                  name="message"
+                  placeholder="Message"
+                  value={toSend.message}
+                  onChange={handleChange}
+                  className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  style={{ margin: "10px" }}
+                ></textarea>
+                <div
+                  className="p-2 w-full"
+                  style={{ display: "flex", justifyContent: "center" }}
                 >
-                  Send Message!
-                </Button>
-              </div>
-              <div
-                className="p-2 w-full pt-8 mt-8 border-t border-teal-200 text-center"
-                style={{ borderColor: "teal" }}
-              >
-                <a
-                  className="text-teal-500"
-                  href="mailto:vantero.dev@gmail.com"
-                  style={{ color: "teal", fontSize: "20px" }}
+                  <Button
+                    variant="outlined"
+                    type="submit"
+                    style={{
+                      color: "#1c1c1e",
+                      borderColor: "#2c2c2e",
+                      fontWeight: "bold",
+                      border: "2px solid",
+                      background: "teal",
+                      borderRadius: "10px",
+                    }}
+                  >
+                    Send Message!
+                  </Button>
+                </div>
+                <div
+                  className="p-2 w-full pt-8 mt-8 border-t border-teal-200 text-center"
+                  style={{ borderColor: "teal" }}
                 >
-                  vantero.dev@gmail.com
-                </a>
-                <span className="inline-flex">
-                  <a className="text-gray-500"></a>
-                  <a className="ml-4 text-gray-500"></a>
-                </span>
-              </div>
+                  <a
+                    className="text-teal-500"
+                    href="mailto:vantero.dev@gmail.com"
+                    style={{ color: "teal", fontSize: "20px" }}
+                  >
+                    vantero.dev@gmail.com
+                  </a>
+                  <span className="inline-flex">
+                    <a className="text-gray-500"></a>
+                    <a className="ml-4 text-gray-500"></a>
+                  </span>
+                </div>
+              </form>
             </div>
           </div>
         </div>
