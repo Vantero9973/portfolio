@@ -9,6 +9,7 @@ export default function Contact() {
     email: "",
     message: "",
   });
+  const [message, setMessage] = useState(false && "Please fill out all fields");
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -29,6 +30,20 @@ export default function Contact() {
   const handleChange = (e) => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
+
+  function displayMessage() {
+    if (
+      toSend.name.length > 0 &&
+      toSend.email.length > 0 &&
+      toSend.message.length > 0
+    ) {
+      setMessage("Message sent - I will get back to you shortly!");
+    } else {
+      setMessage("Please fill out all fields");
+    }
+  }
+
+  console.log(toSend.email);
 
   return (
     <div
@@ -112,9 +127,20 @@ export default function Contact() {
                       background: "teal",
                       borderRadius: "10px",
                     }}
+                    onClick={displayMessage}
                   >
                     Send Message!
                   </Button>
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    color: "#dadada",
+                  }}
+                >
+                  {message}
                 </div>
                 <div
                   className="p-2 w-full pt-8 mt-8 border-t border-teal-200 text-center"
