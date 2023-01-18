@@ -38,7 +38,7 @@ export default function Contact() {
       toSend.message.length > 0
     ) {
       setMessage(
-        <h1 style={{ color: "#dadada" }}>
+        <h1 style={{ color: "#dadada", textAlign: "center" }}>
           Message sent - I will get back to you shortly!
         </h1>
       );
