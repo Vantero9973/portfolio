@@ -9,7 +9,7 @@ export default function Contact() {
     email: "",
     message: "",
   });
-  const [message, setMessage] = useState(false && "Please fill out all fields");
+  const [message, setMessage] = useState(false);
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -37,9 +37,13 @@ export default function Contact() {
       toSend.email.length > 0 &&
       toSend.message.length > 0
     ) {
-      setMessage("Message sent - I will get back to you shortly!");
+      setMessage(
+        <h1 style={{ color: "#dadada" }}>
+          Message sent - I will get back to you shortly!
+        </h1>
+      );
     } else {
-      setMessage("Please fill out all fields");
+      setMessage(<h1 style={{ color: "red" }}>Please fill out all fields</h1>);
     }
   }
 
@@ -77,9 +81,9 @@ export default function Contact() {
               Contact Me
             </h2>
             <p className="contactText">
-              I'm interested in freelance opportunites - especially ambitious or
-              large projects. However, if you have other requests or questions,
-              don't hesitate to use the form!
+              I'm interested in both freelance opportunites and full-time jobs.
+              However, if you have other requests or questions, don't hesitate
+              to use the form!
             </p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
@@ -88,7 +92,7 @@ export default function Contact() {
                 <input
                   type="text"
                   name="name"
-                  placeholder="Name"
+                  placeholder="Name*"
                   value={toSend.name}
                   onChange={handleChange}
                   className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
@@ -97,7 +101,7 @@ export default function Contact() {
                 <input
                   type="text"
                   name="email"
-                  placeholder="Email"
+                  placeholder="Email*"
                   value={toSend.email}
                   onChange={handleChange}
                   className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
@@ -106,7 +110,7 @@ export default function Contact() {
                 <textarea
                   type="text"
                   name="message"
-                  placeholder="Message"
+                  placeholder="Message*"
                   value={toSend.message}
                   onChange={handleChange}
                   className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"

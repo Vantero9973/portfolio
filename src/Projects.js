@@ -242,29 +242,36 @@ export default function Projects() {
                 justifyContent: "right",
               }}
             >
-              <Button
-                variant="outlined"
-                style={{
-                  color: "teal",
-                  borderColor: "teal",
-                  marginRight: "20px",
-                  marginTop: "10px",
-                  borderRadius: "10px",
-                }}
+              <a href="https://pokemon.vantero.dev" target="_blank">
+                <Button
+                  variant="outlined"
+                  style={{
+                    color: "teal",
+                    borderColor: "teal",
+                    marginRight: "20px",
+                    marginTop: "10px",
+                    borderRadius: "10px",
+                  }}
+                >
+                  Demo
+                </Button>
+              </a>
+              <a
+                href="https://github.com/vantero9973/pokemon-flatiron"
+                target="_blank"
               >
-                Demo
-              </Button>
-              <Button
-                variant="outlined"
-                style={{
-                  color: "teal",
-                  borderColor: "teal",
-                  marginTop: "10px",
-                  borderRadius: "10px",
-                }}
-              >
-                Source Code
-              </Button>
+                <Button
+                  variant="outlined"
+                  style={{
+                    color: "teal",
+                    borderColor: "teal",
+                    marginTop: "10px",
+                    borderRadius: "10px",
+                  }}
+                >
+                  Source Code
+                </Button>
+              </a>
             </div>
           </div>
           <div style={{ boxShadow: "0 0 8px teal" }}>
@@ -361,29 +368,33 @@ export default function Projects() {
                 }}
               />
             </div>
-            <Button
-              variant="outlined"
-              style={{
-                color: "teal",
-                borderColor: "teal",
-                marginTop: "10px",
-                borderRadius: "10px",
-              }}
-            >
-              Demo
-            </Button>
-            <Button
-              variant="outlined"
-              style={{
-                color: "teal",
-                borderColor: "teal",
-                marginLeft: "20px",
-                marginTop: "10px",
-                borderRadius: "10px",
-              }}
-            >
-              Source Code
-            </Button>
+            <a href="https://vantero.dev" target="_blank">
+              <Button
+                variant="outlined"
+                style={{
+                  color: "teal",
+                  borderColor: "teal",
+                  marginTop: "10px",
+                  borderRadius: "10px",
+                }}
+              >
+                Demo
+              </Button>
+            </a>
+            <a href="https://github.com/vantero9973/portfolio" target="_blank">
+              <Button
+                variant="outlined"
+                style={{
+                  color: "teal",
+                  borderColor: "teal",
+                  marginLeft: "20px",
+                  marginTop: "10px",
+                  borderRadius: "10px",
+                }}
+              >
+                Source Code
+              </Button>
+            </a>
           </div>
         </div>
       </div>
