@@ -60,8 +60,8 @@ export default function Bio() {
           marginBottom: "10px",
         }}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        Full-Stack Software Engineer who enjoys solving problems efficiently and
+        creatively.
       </p>
       <a href="#contact">
         <Button

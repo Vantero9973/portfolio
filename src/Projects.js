@@ -69,8 +69,9 @@ export default function Projects() {
             <p
               style={{ maxWidth: "400px", fontWeight: "600", color: "#a9a9a9" }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Travel app that allows users to browse popular destinations by
+              country or continent and incorporates a blog, forum, and an
+              e-commerce store for travel guides.
             </p>
             <div style={{ display: "flex" }}>
               <img
@@ -190,8 +191,8 @@ export default function Projects() {
                 color: "#a9a9a9",
               }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              App that allows users to view and add Pokémon to the Hoenn
+              Pokédex, as well as purchase Pokémon to add to their team.
             </p>
             <div style={{ display: "flex", justifyContent: "right" }}>
               <img
@@ -323,8 +324,8 @@ export default function Projects() {
             <p
               style={{ maxWidth: "400px", fontWeight: "600", color: "#a9a9a9" }}
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Links to projects, GitHub repositories, contact form, and gives
+              readers a bit more information on who I am
             </p>
             <div style={{ display: "flex" }}>
               <img
