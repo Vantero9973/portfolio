@@ -125,7 +125,7 @@ export default function Projects() {
                 }}
               />
             </div>
-            <a href="https://pu.vergeyle.net/" target="_blank">
+            <a href="https://parts.undefined.vantero.dev" target="_blank">
               <Button
                 variant="outlined"
                 style={{
