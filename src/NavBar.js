@@ -181,7 +181,7 @@ export default function Navbar() {
                     variant="outlined"
                     style={{
                       color: "#1c1c1e",
-                      borderColor: "#2c2c2e",
+                      borderColor: "teal",
                       fontSize: "18px",
                       fontWeight: "bold",
                       fontFamily: "'Fira Code', monospace",
