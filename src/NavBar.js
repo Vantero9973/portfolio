@@ -1,6 +1,6 @@
 import logo from "./logo.png";
 import Button from "@mui/material/Button";
-import resume from "./Resume.pdf";
+import resume from "./Resume.png";
 import { useState } from "react";
 
 export default function Navbar() {
