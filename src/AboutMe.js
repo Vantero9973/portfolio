@@ -39,20 +39,23 @@ export default function AboutMe() {
               About
             </h2>
             <p style={{ margin: "10px", fontSize: "clamp(16px, 2.5vw, 20px" }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              I am an enthusiastic and innovative problem-solver who is always
+              looking for new ways to approach and tackle complex technical
+              challenges. I have experience collaborating with cross-functional
+              teams and possess excellent communication skills that enable me to
+              effectively convey technical concepts to non-technical
+              stakeholders.
             </p>
             <p style={{ margin: "10px", fontSize: "clamp(16px, 2.5vw, 20px" }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Additionally, I am dedicated to staying up-to-date with the latest
+              advancements in software development and am committed to
+              continually enhancing my skills and knowledge to remain at the
+              forefront of the industry.
             </p>
             <p style={{ margin: "10px", fontSize: "clamp(16px, 2.5vw, 20px" }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              I am excited to continue building my skills and knowledge as a
+              software engineer and contribute to innovative projects that make
+              a positive impact on the world.
             </p>
           </div>
         </div>
@@ -200,6 +203,21 @@ export default function AboutMe() {
         </div>
         <div style={{ color: "#dadada" }}>
           <img
+            src="https://img.icons8.com/office/480/express-js.png"
+            alt="Express"
+            style={{
+              height: "60px",
+              width: "60px",
+              margin: "20px",
+              borderRadius: "15px",
+            }}
+          />
+          <label style={{ display: "flex", justifyContent: "center" }}>
+            Express
+          </label>
+        </div>
+        <div style={{ color: "#dadada" }}>
+          <img
             src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
             alt="Git"
             style={{
@@ -211,21 +229,6 @@ export default function AboutMe() {
           />
           <label style={{ display: "flex", justifyContent: "center" }}>
             Git
-          </label>
-        </div>
-        <div style={{ color: "#dadada" }}>
-          <img
-            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-            alt="Github"
-            style={{
-              height: "60px",
-              width: "60px",
-              margin: "20px",
-              borderRadius: "15px",
-            }}
-          />
-          <label style={{ display: "flex", justifyContent: "center" }}>
-            Github
           </label>
         </div>
       </div>
